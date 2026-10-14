@@ -1,16 +1,28 @@
+# Organizacion de las UD por sesiones
+
+1) UD 1 - Programacion de procesos <- 3 sesiones
+2) UD 2 - Programacion de multihilo <- 4 sesiones
+3) UD 3 - Sockets <- 4 sesiones
+4) UD 4 - Programación de servicios en red <- 2 sesiones
+5) UD 5 - Criptografía <- 2 sesiones
+
 # Objetivo
 
-* Un programa inicial y vamos a recordar como obtener el PID.
-* Un proceso con argumentos.
-* Un proceso pradre que crea un proceso hijo y espera.
-* Diferencia entre programación secuencial y concurrente.
-* Enviar un nuúmero y recibir su doble.
-* Ejercicio para la casa
+* Estado y planificacion de hilos.
+* Concurencia, programación paralela/distribuida.
+* Crear nuestros primeros hilos.
 
-## Programa inicial y obtenemos el PID
+# Ejercicio para casa
 
-Cuando ejecuto cualquier ódigo de Java, el sistema operativo crea un proceso
-(estoy ejecutando un código). Su identificador es el llamado PID.
+Cojas la clase Sesion2.java. Cumpla los siguientes requisitos.
 
-***Throws Exception*** lo dejamos preparado porque después vamos utilizar operaciones que
-pueden hacer que falle el programa.
+1. Tengo un proceso padre lanza dos procesos hijos H1 Y H2, que inician los dos a la vez.
+2. Estos comparten un array que cada uno modifca una posicion.
+3. Cada hijo espera sus dos hilos, y muestra el PID y total.
+4. Esparar cada 10 segundos para mostrar.
+
+# Objetivos de la sesion numero 2
+
+El alumno localize entradas/salidas, iniciar todos los hilos antes de esperar,
+distingue entre datos y codigo, documentar todos los procesos.
+
