@@ -30,3 +30,14 @@ start
 # join
 
 Llamar al método join de un hilo lo que hace que el hilo principal espere a que ese hilo finalize.
+
+# Ejercicio para casa
+
+1. Crear tres hilos llamados Coche-1, Coche-2, Coche-3.
+2. Cada coche va avanzar del kilometro 1 al 10 utilizando un for.
+3. Cada vez que avance un kilometro, mostrara su nombre y el kilometro alcanzado.
+4. Despues de cada kilometro, el hilo espera un tiempo aleatorio entre 100 y 500 milisegundos
+utilizando el Thread.sleep().
+5. Los tres coches comienza la carrera.
+6. El programa principal debe de esperar a que terminen todos los coches.
+7. Cuando los coches hayan llegado a meta, se debe de mostrar el mensaje Todos los coches han terminado la carrera.
