@@ -1,5 +1,5 @@
 // Contador seguro
-public class Ejemplo05_Sesion4Multihilo_Grabada {
+public class Ejemplo05_Sesion3Multihilo_Grabada {
     private static final int REPETICIONES = 10_000;
 
     static class Contador{

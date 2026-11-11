@@ -3,7 +3,7 @@
 // Ejemplo 3. Simplemente vamos a añadir contador o este caso, valor de tipo volatile
 // Con volatile no solucionamos el problema, aporta lo que son garantías de visibilidad,
 // pero no protege una operación compuesta como un incremento en dicha variable.
-public class Ejemplo0203_Sesion4Multihilo_Grabada {
+public class Ejemplo0203_Sesion3Multihilo_Grabada {
     // Numero de incrementos realizados por cada hilo
     private static final int REPETICIONES = 100_000;
 

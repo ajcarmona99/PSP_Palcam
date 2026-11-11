@@ -3,7 +3,7 @@ import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.atomic.AtomicReference;
 
 // Forzar que los hilos primero lean para luego que ellos puedan escribir
-public class Ejemplo04_Sesion4Multihilo_Grabada {
+public class Ejemplo04_Sesion3Multihilo_Grabada {
     // Empezamos con una sola ronda para entender el resultado
     private static final int REPETICIONES = 1000;
 
