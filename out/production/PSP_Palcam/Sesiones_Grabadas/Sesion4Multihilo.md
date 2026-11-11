@@ -21,3 +21,11 @@ mejor el numero de hilos que pueden compartir un mismo recurso)
 * poll() -> Si la cola esta vacía, devuelve null.
 * put(dato) -> Si la cola está llena, espera a que haya espacio.
 * take() -> Si la cola está vacía, espera a que haya un dato.
+
+# Ejercicio para casa
+
+Un productor introduce seis pedidos en una cola de dos.
+
+Dos trabajadores que rertiran los pedidos y preparan sus unidas,
+
+Al final, el programa muestra cuantos pedidos se han preparado y cuantas unidades suman entre todos.
